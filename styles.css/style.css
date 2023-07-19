@@ -87,7 +87,7 @@
 
 /* <!-- banner-realated-style-start --> */
 .banner-realated {
-  margin: 50px auto 0;
+  margin: 50px auto 0px;
   max-width: 1400px;
   min-width: 50px;
   display: flex;
@@ -134,6 +134,7 @@
   font-size: 20px;
   font-weight: 500;
   text-transform: lowercase;
+  text-align: left;
 }
 
 .Sign {
@@ -192,5 +193,20 @@
   font-family: Work Sans;
   font-size: 48px;
   font-weight: 700;
- 
+
 }
+
+.online-games {
+  display: grid;
+  border: 1px solid red;
+  max-width: 1400px;
+  height: 50px auto 0px;
+  min-height: 400px;
+}
+
+
+.onlin-game-play{
+ width: 345px;
+  border: 1px solid black;
+}
+/* <!-- onlin-games-desciption-end --> */
