@@ -168,10 +168,64 @@
 
 /* <!-- online-free-donload-game-end --> */
 
+.img-and-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-and-p img{
+  width: 80px;
+  width: 60px;
+}
+
+.img-and-p p{
+  font-size: 30px;
+}
+
+.pone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.ptow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
 
+.ptow p {
+  font-size: 10px;
+ 
 
+}
+.pone p {
+  
+  font-size: 10px;
 
+}
+.icon img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+figcaption {
+
+  font-size: 10px;
+ 
+}
 
 
 

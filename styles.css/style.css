@@ -305,15 +305,14 @@
 
 .online-free-donload-game {
   text-align: right;
- 
   display: grid;
-  grid-template-columns: repeat( 5,3fr);
+  grid-template-columns: repeat(5, 3fr);
   gap: 20px;
   padding-bottom: 20px;
 
 }
 
-.online-dwonload-img-title  {
+.online-dwonload-img-title {
   width: 240px;
   height: 80px;
   display: flex;
@@ -324,7 +323,7 @@
   background: #e2dddd;
   border: #F948B2;
   justify-content: space-evenly;
-  border:#F948B2;
+  border: #F948B2;
 
 
 
@@ -336,3 +335,102 @@
 
 /* <!-- online-free-donload-game-end --> */
 
+.footer-section {
+  margin-top: 40px;
+  padding-top: 30px;
+  text-align: center;
+  border: 1px solid red;
+  max-width: 1400px;
+  min-height: 50px;
+  background-color: black;
+  color: white;
+
+}
+
+.img-and-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.img-and-p img {
+  width: 80px;
+  height: 70px;
+}
+
+.img-and-p p {
+  font-size: 45px;
+  text-align: center;
+  font-family: Work Sans;
+}
+
+.pone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.ptow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.ptow p {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pone p {
+  color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+
+}
+
+figcaption {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.end {
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
