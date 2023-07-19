@@ -198,15 +198,34 @@
 
 .online-games {
   display: grid;
-  border: 1px solid red;
   max-width: 1400px;
   height: 50px auto 0px;
   min-height: 400px;
+  grid-template-columns: repeat( 4,1fr);
+  margin: 80px 100px;
+  
+
+ 
 }
 
 
-.onlin-game-play{
- width: 345px;
-  border: 1px solid black;
+.onlin-game-play {
+  text-align: center;
+  width: 345px;
+  width: 90%;
+  height: 85%;
+
+  
+  
 }
+.onlin-game-play img{
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+.onlin-game-play figcaption{
+  text-align: left;
+
+}
+
 /* <!-- onlin-games-desciption-end --> */

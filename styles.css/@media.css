@@ -91,8 +91,14 @@
   font-size: 24px;
   
 }
+.online-games {
+  text-align: center;
+  grid-template-columns: repeat( 1,4fr);
+  margin: 10px 10px 10px 10px;
+  gap: 20px;
 
-
-
+  
+ 
+}
 
 }
