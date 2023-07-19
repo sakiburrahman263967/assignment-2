@@ -1,0 +1,17 @@
+@media screen and ( max-width:400px ){
+  .nav-conteiner{
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  
+  .nav-title-menus > ul{
+    flex-direction: column;
+
+  }
+  .nav-title-menus li{
+    margin-top: 10px;
+  }
+  .nav-btn{
+    margin-top: 10px;
+  }
+}
