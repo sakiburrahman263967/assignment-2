@@ -229,3 +229,68 @@
 }
 
 /* <!-- onlin-games-desciption-end --> */
+
+/* <!-- main-section-start --> */
+
+
+.game-anniversary-section{
+
+  max-width: 1400;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.game-anniversary-section-title{
+
+  width: 50%;
+}
+.game-anniversary-section-img{
+ 
+  width: 50%;
+  
+}
+.game-anniversary-section-img img{
+  width: 100%;
+  position: relative;
+}
+
+.position img{
+  width: 100%;
+}
+
+.position{
+
+  position: relative;
+  top: -250px;
+  left: -80px;
+  width: 250px;
+  height: 150px;
+}
+.game-anniversary-section-title-h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+.game-anniversary-section-title-h1 span {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game-anniversary-section-title-p {
+  color: #534C64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+
+}

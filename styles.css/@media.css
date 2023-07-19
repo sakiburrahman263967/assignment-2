@@ -1,104 +1,155 @@
-@media screen and ( max-width:400px ){
+@media screen and (max-width:400px) {
   /* nav-realated-media-start  */
 
- 
-  .nav-conteiner{
+
+  .nav-conteiner {
     flex-direction: column;
     margin-left: 30px;
     padding-top: 20px;
-    
+
   }
-  
-  
+
+
   .nav-title-img {
-   text-align: center;
-   
+    text-align: center;
+
   }
-  .nav-title-menus > ul{
+
+  .nav-title-menus>ul {
     flex-direction: column;
     text-align: center;
 
   }
-  .nav-title-menus li{
+
+  .nav-title-menus li {
     padding-bottom: 10px;
   }
-  .nav-btn{
+
+  .nav-btn {
     margin-top: 10px;
   }
-   /* nav-realated-media-end  */
-   /* banner-realated style-start */
- .banner-realated{
-  flex-direction:  column-reverse;
-  text-align: center;
-  margin:0px ;
- }
- .htow{
-  text-align: left;
-  font-size: 20px;
- }
- .hone{
-  font-size: 25px;
-  text-align: left;
- }
- .banner-p{
-  font-size: 14px;
-  text-align: left;
- }
- .Sign {
-  color: #FFF;
-  font-family: Work Sans;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 300;
-  padding: 11px 20px;
-  gap: 5px;
-  border-radius: 24px;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-}
 
-.Go{
-  color: #FFF;
-  font-family: Work Sans;
-  font-size: 10px;
-  font-weight: 300;
-  padding: 11px 20px;
-  gap: 5px;
-  border-radius: 24px;
-  background: #4EC5F7;
-}
- /* banner-realated style-end */
+  /* nav-realated-media-end  */
+  /* banner-realated style-start */
+  .banner-realated {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 0px;
+  }
 
- /* <!-- onlin-games-desciption-start --> */
- .Online-Games-Funny {
-  color: #0B0223;
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 24px;
-  font-weight: 350;
+  .htow {
+    text-align: left;
+    font-size: 20px;
+  }
 
-}
+  .hone {
+    font-size: 25px;
+    text-align: left;
+  }
 
-.Collection {
-  color: #534C64;
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 13px;
-  font-weight: 200;
-  
-  
-}
-.Videos {
-  font-size: 24px;
-  
-}
-.online-games {
-  text-align: center;
-  grid-template-columns: repeat( 1,4fr);
-  margin: 10px 10px 10px 10px;
-  gap: 20px;
+  .banner-p {
+    font-size: 14px;
+    text-align: left;
+  }
 
-  
- 
-}
+  .Sign {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 11px 20px;
+    gap: 5px;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  }
 
-}
+  .Go {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 11px 20px;
+    gap: 5px;
+    border-radius: 24px;
+    background: #4EC5F7;
+  }
+
+  /* banner-realated style-end */
+
+  /* <!-- onlin-games-desciption-start --> */
+  .Online-Games-Funny {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 350;
+
+  }
+
+  .Collection {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 200;
+
+
+  }
+
+  .Videos {
+    font-size: 24px;
+
+  }
+
+  .online-games {
+    text-align: center;
+    grid-template-columns: repeat(1, 4fr);
+    margin: 10px 10px 10px 10px;
+    gap: 20px;
+
+
+
+  }
+
+  /* <!-- onlin-games-desciption-end --> */
+  .game-anniversary-section-img{
+    width: 100%;
+    position: relative;
+  }
+  .position img{
+    width: 50%;
+  }
+
+  .position{
+    position: relative;
+    top: -130px;
+    left: -20px;
+    width: 250px;
+    height: 150px;
+  }
+  .game-anniversary-section{
+    flex-direction: column;
+  }
+  .game-anniversary-section-title{
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
