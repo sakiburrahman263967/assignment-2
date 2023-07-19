@@ -201,11 +201,11 @@
   max-width: 1400px;
   height: 50px auto 0px;
   min-height: 400px;
-  grid-template-columns: repeat( 4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 80px 100px;
-  
 
- 
+
+
 }
 
 
@@ -215,15 +215,17 @@
   width: 90%;
   height: 85%;
 
-  
-  
+
+
 }
-.onlin-game-play img{
+
+.onlin-game-play img {
   width: 100%;
   display: block;
   margin: 0px auto;
 }
-.onlin-game-play figcaption{
+
+.onlin-game-play figcaption {
   text-align: left;
 
 }
@@ -233,34 +235,36 @@
 /* <!-- main-section-start --> */
 
 
-.game-anniversary-section{
+.game-anniversary-section {
 
   max-width: 1400;
   display: flex;
   width: 100%;
   align-items: center;
-  
+
 }
 
-.game-anniversary-section-title{
+.game-anniversary-section-title {
 
   width: 50%;
 }
-.game-anniversary-section-img{
- 
+
+.game-anniversary-section-img {
+
   width: 50%;
-  
+
 }
-.game-anniversary-section-img img{
+
+.game-anniversary-section-img img {
   width: 100%;
   position: relative;
 }
 
-.position img{
+.position img {
   width: 100%;
 }
 
-.position{
+.position {
 
   position: relative;
   top: -250px;
@@ -268,6 +272,7 @@
   width: 250px;
   height: 150px;
 }
+
 .game-anniversary-section-title-h1 {
   text-align: right;
   font-family: Work Sans;
@@ -294,3 +299,40 @@
   line-height: 30px;
 
 }
+
+/* <!-- main-section-end --> */
+/* <!-- online-free-donload-game-start --> */
+
+.online-free-donload-game {
+  text-align: right;
+ 
+  display: grid;
+  grid-template-columns: repeat( 5,3fr);
+  gap: 20px;
+  padding-bottom: 20px;
+
+}
+
+.online-dwonload-img-title  {
+  width: 240px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  border-radius: 50px;
+  background: #e2dddd;
+  border: #F948B2;
+  justify-content: space-evenly;
+  border:#F948B2;
+
+
+
+}
+
+.online-dwonload-img-title img {
+  width: 50px;
+}
+
+/* <!-- online-free-donload-game-end --> */
+
