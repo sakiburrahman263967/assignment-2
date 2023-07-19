@@ -1,5 +1,6 @@
 * {
-  max-width: 1400;
+
+  box-sizing: border-box;
 
 
 }
@@ -86,107 +87,110 @@
 
 /* <!-- banner-realated-style-start --> */
 .banner-realated {
-  margin: 10px 100px;
-  padding: 20px;
+  margin: 50px auto 0;
+  max-width: 1400px;
+  min-width: 50px;
   display: flex;
   align-items: center;
-
+  margin: 5px 100px;
+  text-align: left;
 }
 
+.banner-text {
+  width: 50%;
+}
 
-.banner-realated-title {
+.banner-img {
 
   width: 50%;
-
-
-}
-
-.banner-realated-img {
-  width: 50%;
-
-}
-
-
-.Play-Like {
-  color: #0B0223;
-  font-family: Work Sans;
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: uppercase;
-
-
-}
-
-.GOAT {
-
-  font-family: Work Sans;
-  font-size: 75px;
-  font-weight: 800;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.Click-instant {
-  color: #534C64;
-  font-family: Work Sans;
-  font-size: 23px;
-  font-weight: 500;
-  text-transform: lowercase;
-  align-items: center;
-}
-
-.No-Download {
-  color: #534C64;
-  font-family: Work Sans;
-  font-size: 23px;
-  font-weight: 500;
-  align-items: center;
-}
-
-.of-supported {
-  color: #534C64;
-  font-family: Work Sans;
-  font-size: 23px;
-  font-weight: 500;
-  align-items: center;
 }
 
 .banner-img img {
   width: 100%;
+  height: auto;
 }
 
-.Sign-In {
+.htow {
+  color: #0B0223;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hone {
+  font-family: Work Sans;
+  font-size: 65px;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.banner-p {
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.Sign {
   color: #FFF;
   font-family: Work Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   text-transform: uppercase;
-  display: inline-flex;
   padding: 21px 40px;
-  align-items: flex-start;
   gap: 10px;
-  border:#FF42A5;
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  border: #FF42A5;
 }
 
-.Go-Rogue {
+.Go {
   color: #FFF;
   font-family: Work Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
-  display: inline-flex;
   padding: 21px 40px;
-  align-items: flex-start;
   gap: 10px;
-  border:#4EC5F7 ;
   border-radius: 48px;
   background: #4EC5F7;
+  border: #4EC5F7;
+}
+
+/* banner-realated style-end */
+
+/* <!-- onlin-games-desciption-start --> */
+.Online-Games-Funny {
+  padding-top: 40px;
+  color: #0B0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+
+.Collection {
+  color: #534C64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
+
+.Videos {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+ 
 }
